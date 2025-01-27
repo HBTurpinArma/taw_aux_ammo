@@ -1,3 +1,824 @@
 class CfgMagazineWells {
+	//http://tikka.ws/class/?b=cfgMagazineWells
 
+	//////////////////
+	//5.56x45mm Ammo//
+	//////////////////
+	//CBA_556x45_AK
+	//CBA_556x45_FAMAS
+	//CBA_556x45_G36
+	//CBA_556x45_GALIL
+	//CBA_556x45_HK33
+	//CBA_556x45_M21
+	//CBA_556x45_MINIMI
+	//CBA_556x45_RPK
+	//CBA_556x45_SCAR_EGLM
+	//CBA_556x45_SG550
+	//CBA_556x45_STANAG
+	//CBA_556x45_STANAG_2D
+	//CBA_556x45_STANAG_2D_XL
+	//CBA_556x45_STANAG_L
+	//CBA_556x45_STANAG_XL
+	//CBA_556x45_STEYR
+	//CBA_556x45_TYPE97
+	//CBA_556x45_TYPE97_XL
+	//STANAG_556x45
+	//STANAG_556x45_Large
+	//M249_556x45
+
+	class CBA_556x45_AK {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class CBA_556x45_FAMAS {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class CBA_556x45_G36 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG",
+			"TAW_AMMO_120RND_556x45_DRUM",
+			"TAW_AMMO_120RND_556x45_TRACER_DRUM"
+		};
+	};
+	class CBA_556x45_GALIL {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class CBA_556x45_HK33 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG",
+			"TAW_AMMO_120RND_556x45_DRUM",
+			"TAW_AMMO_120RND_556x45_TRACER_DRUM"
+		};
+	};
+	class CBA_556x45_M21 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class CBA_556x45_MINIMI {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG",
+			"TAW_AMMO_200RND_556x45_BOX",
+			"TAW_AMMO_200RND_556x45_TRACER_BOX"
+		};
+	};
+	class CBA_556x45_SCAR_EGLM {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG",
+			"TAW_AMMO_120RND_556x45_DRUM",
+			"TAW_AMMO_120RND_556x45_TRACER_DRUM"
+
+		};
+	};
+	class CBA_556x45_SG550 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG",
+			"TAW_AMMO_120RND_556x45_DRUM",
+			"TAW_AMMO_120RND_556x45_TRACER_DRUM"
+		};
+	};
+	class CBA_556x45 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class CBA_556x45_STEYR {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class STANAG_556x45 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_556x45_MAG",
+			"TAW_AMMO_30RND_556x45_TRACER_MAG",
+			"TAW_AMMO_30RND_556x45_AP_MAG"
+		};
+	};
+	class STANAG_556x45_Large {
+		TAW_AMMO[] = {
+			"TAW_AMMO_120RND_556x45_DRUM",
+			"TAW_AMMO_120RND_556x45_TRACER_DRUM"
+		};
+	};
+	class M249_556x45 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_200RND_556x45_BOX",
+			"TAW_AMMO_200RND_556x45_TRACER_BOX"
+		};
+	};
+
+	/////////////////
+	//6.5x39mm Ammo//
+	/////////////////
+	//CBA_65x39_Katiba
+	//CBA_65x39_Mk200
+	//CBA_65x39_MX
+	//CBA_65x39_MX_XL
+	//MX_65x39_Large
+	//MX_65x39_MSBS
+	//MX_65x39
+	class CBA_65x39_Katiba {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_65x39_MAG",
+			"TAW_AMMO_30RND_65x39_TRACER_MAG"
+		};
+	};
+	class CBA_65x39_Mk200 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_200RND_65x39_BOX",
+			"TAW_AMMO_200RND_65x39_TRACER_BOX"
+		};
+	};
+	class CBA_65x39_MX {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_65x39_MAG",
+			"TAW_AMMO_30RND_65x39_TRACER_MAG"
+		};
+	};
+	class CBA_65x39_MX_XL {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_65x39_MAG",
+			"TAW_AMMO_30RND_65x39_TRACER_MAG",
+			"TAW_AMMO_100RND_65x39_MAG",
+			"TAW_AMMO_100RND_65x39_TRACER_MAG"
+		};
+	};
+	class MX_65x39_Large {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_65x39_MAG",
+			"TAW_AMMO_30RND_65x39_TRACER_MAG",
+			"TAW_AMMO_100RND_65x39_MAG",
+			"TAW_AMMO_100RND_65x39_TRACER_MAG"
+		};
+	};
+	class MX_65x39_MSBS {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_65x39_MSBS_MAG",
+			"TAW_AMMO_30RND_65x39_TRACER_MSBS_MAG"
+		};
+	};
+	class MX_65x39 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_65x39_MAG",
+			"TAW_AMMO_30RND_65x39_TRACER_MAG",
+			"TAW_AMMO_100RND_65x39_MAG",
+			"TAW_AMMO_100RND_65x39_TRACER_MAG"
+		};
+	};
+
+	//////////////////
+	//7.62x51mm Ammo//
+	//////////////////
+	//CBA_762x51_1rnd
+	//CBA_762x51_2rnds
+	//CBA_762x51_3rnds
+	//CBA_762x51_4rnds
+	//CBA_762x51_5rnds
+	//CBA_762x51_AICS
+	//CBA_762x51_AR10
+	//CBA_762x51_AR10_L
+	//CBA_762x51_AR10_XL
+	//CBA_762x51_CZ750
+	//CBA_762x51_FAL
+	//CBA_762x51_FAL_L
+	//CBA_762x51_FAL_XL
+	//CBA_762x51_FRF2
+	//CBA_762x51_G3
+	//CBA_762x51_G3_L
+	//CBA_762x51_G3_XL
+	//CBA_762x51_GALIL
+	//CBA_762x51_HK417
+	//CBA_762x51_HK417_L
+	//CBA_762x51_HK417_XL
+	//CBA_762x51_LINKS
+	//CBA_762x51_M14
+	//CBA_762x51_M14_L
+	//CBA_762x51_M14_XL
+	//CBA_762x51_MG3
+	//CBA_762x51_MkI_EMR
+	//CBA_762x51_SCAR
+	//CBA_762x51_SCAR_EGLM
+	//CBA_762x51_SIGAMT
+	//CBA_762x51_SR25
+	//L42A1_762x51
+	//M14_762x51
+	//M240_762x51
+	class CBA_762x51_5rnds {
+		TAW_AMMO[] = {
+			"TAW_AMMO_5RND_762x51_CLIP",
+			"TAW_AMMO_5RND_762x51_AP_CLIP",
+		};
+	};
+	class CBA_762x51_M14 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_SR25 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_SIGAMT {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_SCAR {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_MkI_EMR {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class M14_762x51 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_HK417 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_G3 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_FAL {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_AR10 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+	class CBA_762x51_MG3 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_100RND_762x51_BOX",
+			"TAW_AMMO_100RND_762x51_TRACER_BOX"
+		};
+	};
+	class M240_762x51 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_100RND_762x51_BOX",
+			"TAW_AMMO_100RND_762x51_TRACER_BOX"
+		};
+	};
+	class JCA_SR_762x51 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x51_MAG",
+			"TAW_AMMO_10RND_762x51_TRACER_MAG",
+			"TAW_AMMO_10RND_762x51_AP_MAG",
+			"TAW_AMMO_20RND_762x51_MAG",
+			"TAW_AMMO_20RND_762x51_TRACER_MAG",
+			"TAW_AMMO_20RND_762x51_AP_MAG"
+		};
+	};
+
+	////////////////
+	//7.62x54 Ammo//
+	////////////////
+	//CBA_762x54R_DPM
+	//CBA_762x54R_DT
+	//CBA_762x54R_LINKS
+	//CBA_762x54R_Maxim
+	//CBA_762x54R_Mosin
+	//CBA_762x54R_RP46
+	//CBA_762x54R_SVD
+	//CBA_762x54R_SVT
+	//CBA_762x54R_Vz59_LINKS
+	//PK_762x54R
+	//Rahim_762x54
+	//SVD_762x54R
+	class CBA_762x54R_Mosin {
+		TAW_AMMO[] = {
+			"TAW_AMMO_5RND_762x54_CLIP"
+		};
+	}; 
+	class PK_762x54R {
+		TAW_AMMO[] = {
+			"TAW_AMMO_100RND_762x54_BOX",
+			"TAW_AMMO_100RND_762x54_TRACER_BOX"
+		};
+	};
+	class CBA_762x54R_LINKS {
+		TAW_AMMO[] = {
+			"TAW_AMMO_100RND_762x54_BOX",
+			"TAW_AMMO_100RND_762x54_TRACER_BOX"
+		};
+	};
+	class CBA_762x54R_SVT {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x54_MAG",
+			"TAW_AMMO_10RND_762x54_TRACER_MAG"
+		};
+	};
+	class CBA_762x54R_SVD {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x54_MAG",
+			"TAW_AMMO_10RND_762x54_TRACER_MAG"
+		};
+	};
+	class SVD_762x54R {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x54_MAG",
+			"TAW_AMMO_10RND_762x54_TRACER_MAG"
+		};
+	};
+	class Rahim_762x54 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_762x54_MAG",
+			"TAW_AMMO_10RND_762x54_TRACER_MAG"
+		};
+	};
+
+	////////////////
+	//7.62x63 Ammo//
+	////////////////
+	
+	////////////////
+	//7.92x57 Ammo//
+	////////////////
+	//CBA_792x107mmDS_wz35
+	//CBA_792x33_StG
+	//CBA_792x57_FG42
+	//CBA_792x57_G41
+	//CBA_792x57_G43
+	//CBA_792x57_K98
+	//CBA_792x57_K98_Trench
+	//CBA_792x57_LINKS
+	//CBA_792x57_M76
+	//CBA_792x57_MG08
+	//CBA_792x57_MG30
+	//CBA_792x57_TROMMEL
+	//CBA_792x57_vz7_24
+	//CBA_792x57_wz28
+	//CBA_792x57_wz38M
+	//CBA_792x57_ZB26
+	//CBA_792x57_ZB53
+
+	////////////////
+	//12.7x54 Ammo//
+	////////////////
+
+	///////////////
+	//9.3x64 Ammo//
+	///////////////
+	//CBA_93x64_LINKS
+	//Cyrus_93
+	class CBA_93x64_LINKS {
+		TAW_AMMO[] = {
+			"TAW_AMMO_120RND_93x64_BOX"
+		};
+	};
+	class Cyrus_93 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_93x64_MAG"
+		};
+	};
+
+	////////////////
+	//12.7x54 Ammo//
+	////////////////
+
+	////////////////
+	//12.7x99 Ammo//
+	////////////////
+	//CBA_50BMG_AS50
+	//CBA_50BMG_M107
+	//CBA_50BMG_PMG_Hecate_II
+	class CBA_50BMG_AS50 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_127x99_MAG",
+			"TAW_AMMO_10RND_127x99_TRACER_MAG",
+			"TAW_AMMO_10RND_127x99_API_MAG"
+		};
+	};
+	class CBA_50BMG_M107 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_127x99_MAG",
+			"TAW_AMMO_10RND_127x99_TRACER_MAG",
+			"TAW_AMMO_10RND_127x99_API_MAG"
+		};
+	};
+
+	////////////////
+	//.45 ACP Ammo//
+	////////////////
+	//CBA_45ACP_1911
+	//CBA_45ACP_C96
+	//CBA_45ACP_Delisle
+	//CBA_45ACP_Glock_Cpct
+	//CBA_45ACP_Glock_Full
+	//CBA_45ACP_Glock_Slim
+	//CBA_45ACP_Grease
+	//CBA_45ACP_Reising
+	//CBA_45ACP_Thompson_Drum
+	//CBA_45ACP_Thompson_Stick
+	//CBA_45ACP_UMP
+	//Cylinder_45ACP
+	//PistolHeavy_01_45ACP
+	//JCA_UMP_45ACP
+	class Cylinder_45ACP {
+		TAW_AMMO[] = {
+			"TAW_AMMO_6RND_45ACP_CYLINDER"
+		};
+	};
+	class PistolHeavy_01_45ACP {
+		TAW_AMMO[] = {
+			"TAW_AMMO_11RND_45ACP_MAG"
+		};
+	};
+	class ACPC2_45ACP {
+		TAW_AMMO[] = {
+			"TAW_AMMO_11RND_45ACP_MAG"
+		};
+	};
+	class CBA_45ACP_1911 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_11RND_45ACP_MAG"
+		};
+	};
+	class JCA_UMP_45ACP {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_45ACP_MAG",
+			"TAW_AMMO_30RND_45ACP_TRACER_MAG"
+		};
+	};
+	class CBA_45ACP_UMP {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_45ACP_MAG",
+			"TAW_AMMO_30RND_45ACP_TRACER_MAG"
+		};
+	};
+	class CBA_45ACP_Thompson_Stick {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_45ACP_MAG",
+			"TAW_AMMO_30RND_45ACP_TRACER_MAG"
+		};
+	};
+	class CBA_45ACP_Glock_Full {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_45ACP_MAG",
+			"TAW_AMMO_30RND_45ACP_TRACER_MAG"
+		};
+	};
+
+
+	///////////////
+	//4.6x30 Ammo//
+	///////////////
+	//CBA_46x30_MP7
+	class CBA_46x30_MP7 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_40RND_46x30_JHP_MAG",
+			"TAW_AMMO_40RND_46x30_JHP_TRACER_MAG"
+		};
+	};
+
+	/////////////
+	//9x18 Ammo//
+	/////////////
+	//CBA_9x18_CZ82
+	//CBA_9x18_Fort12
+	//CBA_9x18_GPP9M
+	//CBA_9x18_Ots01
+	//CBA_9x18_Ots02
+	//CBA_9x18_Ots27
+	//CBA_9x18_Ots33
+	//CBA_9x18_P64
+	//CBA_9x18_P83
+	//CBA_9x18_PA63
+	//CBA_9x18_PM
+	//CBA_9x18_PM63
+	//CBA_9x18_PM84
+	//CBA_9x18_PMM
+	//CBA_9x18_PP19
+	//CBA_9x18_PP91
+	//CBA_9x18_Vz65
+
+
+	/////////////
+	//9x19 Ammo//
+	/////////////
+	//CBA_9x19_C96
+	//CBA_9x19_CZ2075
+	//CBA_9x19_CZ75_Cpct
+	//CBA_9x19_CZ75_Full
+	//CBA_9x19_CZ82
+	//CBA_9x19_CZ97
+	//CBA_9x19_CZP01
+	//CBA_9x19_CZP07
+	//CBA_9x19_CZP09
+	//CBA_9x19_CZP09Kadet
+	//CBA_9x19_Glock_Cpct
+	//CBA_9x19_Glock_Full
+	//CBA_9x19_Glock_Slim
+	//CBA_9x19_Glock_SubC
+	//CBA_9x19_GPK199
+	//CBA_9x19_GSh18
+	//CBA_9x19_HiPower
+	//CBA_9x19_M9
+	//CBA_9x19_MAB38
+	//CBA_9x19_MP28
+	//CBA_9x19_MP35
+	//CBA_9x19_MP40
+	//CBA_9x19_MP443
+	//CBA_9x19_MP5
+	//CBA_9x19_Ots27
+	//CBA_9x19_P08
+	//CBA_9x19_P226
+	//CBA_9x19_P228
+	//CBA_9x19_P239
+	//CBA_9x19_P38
+	//CBA_9x19_PM63
+	//CBA_9x19_PM84
+	//CBA_9x19_PP19
+	//CBA_9x19_PP2000
+	//CBA_9x19_ScorpionEvo3
+	//CBA_9x19_STEN
+	//CBA_9x19_Sterling
+	//CBA_9x19_STEYR
+	//CBA_9x19_TT
+	//CBA_9x19_UMP
+	//CBA_9x19_UZI
+	//CBA_9x19_UZI_Pro
+	//CBA_9x19_Vis
+	//CBA_9x19_Vityaz
+	//CBA_9x19_Vz68
+	//CBA_9x19_Welrod
+	//CBA_9x19_wz39Mors
+	//CZ99_9x19_PARA
+	//JCA_MP5_9x19
+	class JCA_MP5_9x19 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_9x19_JHP_MAG",
+			"TAW_AMMO_30RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_ScorpionEvo3 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class JCA_P320_Compact_9x19 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class JCA_P226_9x19 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_UMP {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_9x19_JHP_MAG",
+			"TAW_AMMO_30RND_9x19_JHP_TRACER_MAG"
+		};
+	};	
+	class CBA_9x19_MP5 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_9x19_JHP_MAG",
+			"TAW_AMMO_30RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_UZI {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_9x19_JHP_MAG",
+			"TAW_AMMO_30RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_STEYR {
+		TAW_AMMO[] = {
+			"TAW_AMMO_30RND_9x19_JHP_MAG",
+			"TAW_AMMO_30RND_9x19_JHP_TRACER_MAG"
+		};
+	};	
+	class CBA_9x19_PP2000 {
+		TAW_AMMO[] = {
+			//"TAW_AMMO_30RND_9x19_JHP_MAG",
+			//"TAW_AMMO_30RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_CZP09 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_P226 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_P228 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_MP443 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_Glock_Cpct {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_Glock_Full {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_Glock_Slim {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_Glock_SubC {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_TT {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+	class CBA_9x19_M9 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_15RND_9x19_JHP_MAG",
+			"TAW_AMMO_15RND_9x19_JHP_TRACER_MAG"
+		};
+	};
+
+	/////////////
+	//9x21 Ammo//
+	/////////////
+	//CBA_9x21_SR1M
+	class CBA_9x21_SR1M {
+		TAW_AMMO[] = {
+			"TAW_AMMO_18RND_9x21_MAG"
+		};
+	};
+	//Pistol_9x21
+	class Pistol_9x21 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_18RND_9x21_MAG",
+			"TAW_AMMO_30RND_9x21_MAG",
+			"TAW_AMMO_30RND_9x21_TRACER_MAG"
+		};
+	};
+
+	/////////////
+	//.300 Ammo//
+	/////////////
+	//CBA_300WM_AI
+	//CBA_300WM_AICS
+	class CBA_300WM_AICS {
+		TAW_AMMO[] = {
+			"TAW_AMMO_5RND_300_WM_MAG"
+		};
+	};
+
+	/////////////
+	//.338 Ammo//
+	/////////////
+	//CBA_338LM_AI
+	//CBA_338LM_T5000
+	//CBA_338NM_LINKS
+	//MAR10_338
+	//SPMG_338
+	class CBA_338NM_LINKS {
+		TAW_AMMO[] = {
+			"TAW_AMMO_130RND_338_BOX"
+		};
+	};
+	class MAR10_338 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_10RND_338_LM_MAG",
+			"TAW_AMMO_10RND_338_LM_API_CLIP"
+		};
+	};
+	class CBA_338LM_T5000 {
+		TAW_AMMO[] = {
+			"TAW_AMMO_5RND_338_LM_CLIP",
+			"TAW_AMMO_5RND_338_LM_API_CLIP"
+		};
+	};
+	class JCA_AWM_338LM {
+		TAW_AMMO[] = {
+			"TAW_AMMO_5RND_338_LM_CLIP",
+			"TAW_AMMO_5RND_338_LM_API_CLIP"
+		};
+	};
+	
+	
+	/////////////
+	//.408 Ammo//
+	/////////////
+	//CBA_408CT_Inter
+	class CBA_408CT_Inter {
+		TAW_AMMO[] = {
+			"TAW_AMMO_7RND_408_MAG"
+		};
+	};
+	
 };
