@@ -6,6 +6,7 @@ class cfgPatches
 		author="TAW";
 		requiredAddons[]={	
 			"A3_Weapons_F",	
+			"A3_Weapons_F_Exp",
 			"ace_main",	
 			"rhsusf_main",
 			"rhsusf_weapons",
@@ -13,9 +14,7 @@ class cfgPatches
 			"rhsusf_weapons3"
 		};
 		requiredVersion=1.0;
-		weapons[]={};
+		weapons[]={"rhs_weap_m32_sidearm","arifle_AK101_F","arifle_AK101_GL_F"};
 		units[]={};
-		magazines[]={};
-		ammo[]={};
 	};
 };
