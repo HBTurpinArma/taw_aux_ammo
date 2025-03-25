@@ -14,7 +14,7 @@ class cfgPatches
 			"rhsusf_weapons3"
 		};
 		requiredVersion=1.0;
-		weapons[]={"rhs_weap_m32_sidearm","arifle_AK101_F","arifle_AK101_GL_F"};
+		weapons[]={"arifle_AK101_F","arifle_AK101_GL_F"};
 		units[]={};
 	};
 };

@@ -15,20 +15,6 @@ class CfgWeapons {
 	// 	magazineWell[] += {"Pistol_9x21"};
 	// };
 
-	// M32 Sidearm
-
-	class rhs_weap_m32_Base_F;
-	class rhs_weap_m32: rhs_weap_m32_Base_F {
-		class WeaponSlotsInfo;
-	};
-	class rhs_weap_m32_sidearm: rhs_weap_m32 {
-		class WeaponSlotsInfo: WeaponSlotsInfo {
-            allowedSlots[] = {701}; // Slots for sidearms
-        };
-		type = 2;
-		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_M32.rtm"};
-	};
-
 	// AK101, rechambered AK-12 to 5.56x45mm
 	class Rifle_Base_F;
 	class arifle_AK12_base_F: Rifle_Base_F {
