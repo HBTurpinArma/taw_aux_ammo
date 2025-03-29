@@ -14,7 +14,7 @@ class cfgPatches
 			"rhsusf_weapons3"
 		};
 		requiredVersion=1.0;
-		weapons[]={"arifle_AK101_F","arifle_AK101_GL_F"};
+		weapons[]={"arifle_AK101_F","arifle_AK102_F","arifle_AK201_F","arifle_AK201_GL_F","arifle_AK202_F"};
 		units[]={};
 	};
 };
