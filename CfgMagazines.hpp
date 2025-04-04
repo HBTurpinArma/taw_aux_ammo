@@ -148,6 +148,7 @@ class CfgMagazines {
 		ammo = "TAW_AMMO_556x45_BALL"
 		tracersEvery = 0;
 		lastRoundsTracer = 0;
+		
 	};
 	class TAW_AMMO_30RND_556x45_TRACER_MAG: TAW_AMMO_30RND_556x45_MAG {
 		displayName = "5.56x45 mm 30Rnd Mag (Tracer)";	
@@ -201,13 +202,52 @@ class CfgMagazines {
 		displayName = "5.56x45 mm 30Rnd Mag";
 		descriptionshort="Caliber: 5.56x45 mm<br />Rounds: 30<br />Used in: AK-101";
 		ammo = "TAW_AMMO_556x45_BALL"
+		initspeed = 910;
+		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23_30rnd.p3d";
+		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_mag";
+		hiddenSelections[] = {};
 		tracersEvery = 0;
 		lastRoundsTracer = 0;
+		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_AK_ca.paa";
 	};
 	class TAW_AMMO_30RND_556x45_AK_TRACER_MAG: TAW_AMMO_30RND_556x45_AK_MAG {
 		displayName = "5.56x45 mm 30Rnd Mag (Tracer)";
 		tracersEvery = 1;
 		lastRoundsTracer = 30;
+	};
+	class TAW_AMMO_30RND_556x45_AK_MK262_MAG: TAW_AMMO_30RND_556x45_AK_MAG {
+		displayName = "5.56x45 mm 30Rnd Mag (MK262)";
+		tracersEvery = 1;
+		lastRoundsTracer = 30;
+	};
+
+	//60 Rounders (I don't particullary see the need for these, but the drum does conflict with hand animations on the 101 so maybe a fair alternative.)
+	class TAW_AMMO_60RND_556x45_AK_MAG: TAW_AMMO_30RND_556x45_AK_MAG
+	{
+		author = "TAW";
+		count = 60;
+		displayName = "5.56x45 mm 60Rnd AK Mag";
+		descriptionshort = "Caliber: 5.56x45 mm<br />Rounds: 60<br />Used in: AK-101";
+		ammo = "TAW_AMMO_556x45_BALL";
+		initspeed = 910;
+		mass = 19.69;
+		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l31_60rnd.p3d";
+		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_60rnd_mag_black";
+		hiddenSelections[] = {};
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_60Rnd_545X39_7N10_AK_ca.paa";
+	};
+	class TAW_AMMO_60RND_556x45_AK_TRACER_MAG: TAW_AMMO_60RND_556x45_AK_MAG
+	{
+		displayName = "5.56x45 mm 60Rnd AK Mag (Tracer)";
+		tracersEvery = 1;
+		lastRoundsTracer = 60;
+	};
+	class TAW_AMMO_60RND_556x45_AK_MK262_MAG: TAW_AMMO_60RND_556x45_AK_MAG {
+		displayName = "5.56x45 mm 60Rnd AK Mag (MK262)";
+		ammo = "TAW_AMMO_556x45_MK262";
+		initspeed = 838.2;
 	};
 
 	class 75Rnd_762x39_AK12_Mag_F;
@@ -217,6 +257,7 @@ class CfgMagazines {
 		displayName = "5.56x45 mm 75Rnd AK Mag";
 		descriptionshort="Caliber: 5.56x45 mm<br />Rounds: 75<br />Used in: AK-101";
 		ammo = "TAW_AMMO_556x45_BALL"
+		initspeed = 910;
 		tracersEvery = 0;
 		lastRoundsTracer = 0;
 	};
@@ -224,6 +265,11 @@ class CfgMagazines {
 		displayName = "5.56x45 mm 75Rnd AK Mag (Tracer)";
 		tracersEvery = 1;
 		lastRoundsTracer = 75;
+	};
+	class TAW_AMMO_75RND_556x45_AK_MK262_MAG: TAW_AMMO_75RND_556x45_AK_MAG {
+		displayName = "5.56x45 mm 75Rnd AK Mag (MK262)";
+		ammo = "TAW_AMMO_556x45_MK262";
+		initspeed = 838.2;
 	};
 
 

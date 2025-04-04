@@ -55,6 +55,23 @@ class CfgAmmo {
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
 		nvgOnly = 0;
 	};
+	class ACE_556x45_Ball_Mk262;
+	class TAW_AMMO_556x45_MK262: ACE_556x45_Ball_Mk262 { //RHS Balanced values (Thanks Kaelies)
+			model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+			nvgOnly = 0;
+			hit = 12.0;
+			typicalSpeed = 838.2;
+			airFriction = -0.00066;
+			caliber = 0.677;
+			deflecting = 15;
+			visibleFire = 2.5;
+			audibleFire = 5;
+			tracerStartTime = 0.073;
+			tracerEndTime = 1.15;
+	};
+
+
+
 
 	///////////////
 	//6.5x39 Ammo//
